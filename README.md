@@ -7,8 +7,9 @@ If interested, this document has great explanations in detail: https://www.cs.bg
 
 Usage: As of now, user must manually set a 3-SAT formula to test (CNF form) within the code using list of lists.
 Each sublist is a clause, which has three string variables "x", "y", "z". Use ~ for negation.  
-[['x','~y','z'], ['x', 'y', '~z'], ['~x', '~y', 'z'], ['~x', 'y', '~z']] = 
+[['x', '~y', 'z'], ['x', 'y', '~z'], ['~x', '~y', 'z'], ['~x', 'y', '~z']] = 
 (x ∨ ~y ∨ z) ∧ (x ∨ y ∨ ~z) ∧ (~x ∨ ~y ∨ z) ∧ (~x ∨ y ∨ ~z)
+
 I am a student learning programming, so the code probably has a lot of flaws. 
 I plan to clean up code and add/modify interface to try do something cool with it. 
 
